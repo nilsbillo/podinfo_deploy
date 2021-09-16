@@ -17,7 +17,7 @@ jobs:
         if: ${{ github.event.client_payload.sha }}
         with:
           commit_message: Deploy new image ${{ github.event.client_payload.sha }}
-          branch: main
+          branch: master
           commit_options: '--no-verify --signoff'
           repository: .
           commit_user_name: Example GitOps Bot
