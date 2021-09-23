@@ -23,7 +23,7 @@ spec:
     spec:
       containers:
       - name: podinfod
-        image: docker.io/hawk123/podinfo:80fa6daf5212a774fadc08cd56b4cfa73a57bd02
+        image: docker.io/hawk123/podinfo:2493758bd8aeb75e2382c9073bd2b0ca1290ca6d
         imagePullPolicy: IfNotPresent
         ports:
         - name: http
